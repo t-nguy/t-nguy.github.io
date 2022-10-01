@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff7edd6681.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            font-family: 'Padauk', sans-serif;
+        }
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        a {
+            color: black;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        body {
+            background: white;
+        }
+        .container {
+            width: 60%;
+        }
+        .vertical-align {
+            min-height: 100%;
+            align-items: center;
+            margin-bottom: 0;
+            background: white;
+        }
+        #hello {
+            width: 55%;
+        }
+        #helloText {
+            font-size:22px;
+        }
+        .img-card-top {
+            width: 70%;
+            margin: auto;
+        }
+        .card {
+            border: 1px solid black;
+        }
+        .project, .project:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row container mx-auto p-5">
+        <div class="jumbotron vertical-align col">
+            <div class="p-3 d-flex justify-content-center">
+                <p class="display-4">Thomas Nguyen</p>
+            </div>
+            
+            <div class="d-flex justify-content-center">
+                <a target="_blank" href="https://github.com/t-nguy" class="mx-3">
+                    <i class="fa-brands fa-github fa-4x"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/thomas-nguyen-bb5239208/" class="mx-3">
+                    <i class="fa-brands fa-linkedin fa-4x"></i>
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="col text-center">
+            <img src="assets/picture_square.jpg" width="350" class="rounded img-fluid shadow">
+        </div>
+    </div>
+    <div id="hello" class="row mx-auto text-center p-5">
+        <div class="mx-auto">
+            <p id="helloText">Hello! I'm a 3rd year Computer Science student at University of California, Santa Cruz. I'm passionate about video games and anything creative. Here's what I've been working on:</p>
+        </div>
+    </div>
+    <div class="row container mx-auto p-5">
+        <div class="jumbotron vertical-align col">
+            <div class="p-3 d-flex justify-content-center">
+                <p class="display-4">2022</p>
+            </div>
+        </div>
+        
+        <div class="col text-center">
+            <div class="card">
+                <img src="assets/aha.png" class="img-card-top rounded"> 
+                <a target="_blank" href="https://www.ahealthacademy.com/" class="project">
+                    <h2>Advanced Health Academy</h2>
+                </a>
+                <p class="p-3">Currently working as a backend developer with a team to build an app that can scan and store blood tests to analyze them for early warning signs of disease.</p>
+                <p>Node.js, Express.js, AWS, DynamoDB</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="row container mx-auto p-5">
+        <div class="jumbotron vertical-align col">
+            <div class="p-3 d-flex justify-content-center">
+                <p class="display-4">2019</p>
+            </div>
+        </div>
+        
+        <div class="col text-center">
+            <div class="card">
+                <img src="assets/knights.png" class="img-card-top rounded p-5"> 
+                <a target="_blank" href="https://tnst-studios.herokuapp.com" class="project">
+                    <h2>Knight's Journey</h2>
+                </a>
+                <p class="p-3">A puzzle game originally developed in Java with a friend for a high school project. I ported the game to Android, put it on the Play Store, and made a website for it.</p>
+                <p>Java, Android, HTML/CSS/JS, Bootstrap</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mx-auto text-center my-3">
+        <p>Copyright Thomas Nguyen 2022</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
