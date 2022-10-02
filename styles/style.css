@@ -105,99 +105,9 @@ body {
     #name {
         font-size: 3.8em;
     }
-    #helloText {
-
-    }
-    .projectTitle {
-        
-    }
-    .projectText {
-
-    }
-    .projectYear {
-
-    }
-    .projectLanguage {
-        
-    }
-    .icon {
-
-    }
-}
-
-@media screen and (min-width: 768px){
-    #name {
-        font-size: 3.8em;
-    }
-    #helloText {
-        
-    }
-    .projectTitle {
-
-    }
-    .projectText {
-
-    }
-    .projectYear {
-
-    }
-    .projectLanguage {
-        
-    }
-    .icon {
-
-    }
-}
-
-@media screen and (min-width: 1024px){
-    #name {
-        font-size: 3.8em;
-    }
-    #helloText {
-        
-    }
-    .projectTitle {
-        
-    }
-    .projectText {
-
-    }
-    .projectYear {
-
-    }
-    .projectLanguage {
-
-    }
-    .icon {
-
-    }
 }
 
 @media screen and (min-width: 1200px){
-    #name {
-        font-size: 4.5em;
-    }
-    #helloText {
-        font-size: 1.8em;
-    }
-    .projectTitle {
-        font-size: 2em;
-    }
-    .projectText {
-        font-size: 1.4em;
-    }
-    .projectYear {
-        font-size: 4em;
-    }
-    .projectLanguage {
-        font-size: 1.2em;
-    }
-    .icon {
-        font-size: 4em;
-    }
-}
-
-@media screen and (min-width: 1400px){
     #name {
         font-size: 4.5em;
     }
