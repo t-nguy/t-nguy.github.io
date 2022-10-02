@@ -22,7 +22,7 @@ body {
     background: white;
 }
 
-.img-fluid {
+.img-fluid {   
     margin: auto;
 }
 .card {
@@ -38,6 +38,7 @@ body {
 
 #name {
     font-size: 2.7em;
+    padding-top: 3.5rem;
 }
 .projectTitle {
     font-size: 2em;
@@ -57,8 +58,26 @@ body {
 #helloText {
     font-size: 1.6em;
 }
-.projectCard {
-    
+#profileContainer{
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+#hello{
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 992px){
+    #name {
+        padding-top: 0;
+    }
+    #profileContainer{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    #hello {
+        padding-bottom: 1.3rem;
+    }
 }
 
 @media screen and (min-width: 480px){
