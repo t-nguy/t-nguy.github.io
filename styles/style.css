@@ -23,7 +23,6 @@ body {
 }
 
 .img-fluid {
-    width: 80%;
     margin: auto;
 }
 .card {
@@ -35,9 +34,7 @@ body {
 #profileContainer{
     align-items: center;
 }
-#profile{
-    width: 350px;
-}
+
 
 #name {
     font-size: 2.7em;
@@ -61,8 +58,7 @@ body {
     font-size: 1.6em;
 }
 .projectCard {
-    flex-direction: column;
-    align-items: flex-start;
+    
 }
 
 @media screen and (min-width: 480px){
