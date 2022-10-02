@@ -22,9 +22,8 @@ body {
     background: white;
 }
 
-.img-card-top {
+.img-fluid {
     width: 80%;
-    height: 80%;
     margin: auto;
 }
 .card {
@@ -60,6 +59,10 @@ body {
 }
 #helloText {
     font-size: 1.6em;
+}
+.projectCard {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 @media screen and (min-width: 480px){
